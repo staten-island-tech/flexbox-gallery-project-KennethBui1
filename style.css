@@ -3,6 +3,17 @@ h1{
     font-family: 'Arvo', serif;
 }
 
+html {
+    animation: 2s ease-in-out fadeInAnimation
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
 .gallery{
     display: flex;
     flex-wrap: wrap;
@@ -14,11 +25,94 @@ h1{
     font-size: 40px;
     margin-top: 2rem;
 }
+.galleryinside img:hover{
+    /* border: 2px solid gray; */
+    font-size: 40px;
+    margin-top: 2rem;
+    width: 600px;
+    height: 400px;
+}
+
 .galleryinside img {
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     width: 500px;
     height: 300px;
+    transition: .2s all ease;
 }
+#secondEffect img:hover{
+    /* border: 2px solid gray; */
+    font-size: 40px;
+    margin-top: 2rem;
+    width: 750px;
+    height: 450px;
+}
+
+#secondEffect img {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    width: 500px;
+    height: 300px;
+    transition: .2s all ease;
+}
+
+#firstEffect img:hover{
+    /* border: 2px solid gray; */
+    font-size: 40px;
+    margin-top: 2rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 255);
+}
+
+#firstEffect img {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    width: 500px;
+    height: 300px;
+    transition: .2s all ease;
+}
+#thirdEffect img:hover{
+    /* border: 2px solid gray; */
+    font-size: 40px;
+    margin-top: 2rem;
+    height: 400px;
+}
+
+#thirdEffect img {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    width: 500px;
+    height: 300px;
+    transition: .2s all ease;
+
+    
+}
+#fourthEffect img:hover{
+    /* border: 2px solid gray; */
+    font-size: 40px;
+    margin-top: 2rem;
+    width: 600px;
+    
+}
+
+#fourthEffect img {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    width: 500px;
+    height: 300px;
+    transition: .2s all ease;
+    margin-top: 2rem;
+}
+#fifthEffect img:hover{
+    /* border: 2px solid gray; */
+    font-size: 40px;
+    margin-top: 2rem;
+    opacity: 50%;
+    
+}
+
+#fifthEffect img {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    width: 500px;
+    height: 300px;
+    transition: .2s all ease;
+    margin-top: 2rem;
+}
+
 
 #galleryinside{
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
