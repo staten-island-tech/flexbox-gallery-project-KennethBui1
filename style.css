@@ -13,6 +13,7 @@ font-size: 50px;
 html {
     animation: 2s ease-in-out fadeInAnimation
 }
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -145,4 +146,35 @@ html {
     padding-top: 100px;
     display: flex;
     justify-content: space-evenly ;
+}
+@media (max-width: 390px) {
+    .galleryinside img {
+        width: 30rem;
+        height: 20rem;
+    }
+    #galleryinside img {
+        width: 30rem;
+        height: 20rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .galleryinside img {
+        width: 40rem;
+        height: 25rem;
+    }
+    #galleryinside img {
+        width: 40rem;
+        height: 25rem;
+    }
+}
+@media (max-width: 1366px) {
+    .galleryinside img {
+        width: 40rem;
+        height: 25rem;
+    }
+    #galleryinside img {
+        width: 40rem;
+        height: 25rem;
+    }
 }
